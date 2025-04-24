@@ -190,7 +190,7 @@ if view == "Library":
                         <p><strong>Author:</strong> {book.get("author")}</p>
                         <p><strong>Year:</strong> {book.get("publication_year", "N/A")}</p>
                         <p><strong>Genre:</strong> {book.get("genre")}</p>
-                        <span class="{ 'read-badge' if boo.get('read_status') == 'Read' else 'unread-badge' }">
+                        <span class="{ 'read-badge' if book.get('read_status') == 'Read' else 'unread-badge' }">
                             {book.get('read_status')}
                         </span>
                     </div>
