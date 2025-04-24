@@ -1,33 +1,33 @@
 [
   {
-    "title":"python crash course",
-    "author": Eric Matthes",
-    "Publication_year": 2019,
-    "genre": "programing",
+    "title":"In the Line of Fire",
+    "author": Pervez Musharraf",
+    "Publication_year": 2006,
+    "genre": "Autobiography / Political",
     "read_status": false,
     "added_data": "2025-04-15 10:50:45"
   },
   {
-     "title":"Fluent python",
-    "author": "Ramalho",
-    "Publication_year": 2022,
-    "genre": "programing",
+     "title":"Clean Code",
+    "author": "Robert C. Martin",
+    "Publication_year": 2008,
+    "genre": "Programming / Software Engineering",
     "read_status": false,
     "added_data": "2025-04-15 10:59:40"
   },
   {
-      "title":"Automate the boring atuff with python",
-    "author": "K.K.B",
-    "Publication_year": 2012,
-    "genre": "programing",
+      "title":"Songs of Blood and Sword",
+    "author": "Fatima Bhutto",
+    "Publication_year": 2010,
+    "genre": "Memoir / Political History",
     "read_status": true,
     "added_data": "2025-04-15 10:55:40"
   },
   {
-     "title":"Effetive python",
-    "author": "Brett Slatkin",
-    "Publication_year": 2020,
-    "genre": "programing",
+     "title":"The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "Publication_year": 1999,
+    "genre": "Programming / Software Development",
     "read_status": true,
     "added_data": "2025-04-15 11:00:10"
   },
