@@ -187,11 +187,11 @@ if view == "Library":
                     st.markdown(f"""
                     <div class="book-card">
                         <h3>{book["title"]}</h3>
-                        <p><strong>Author:</strong> {book["author"]}</p>
-                        <p><strong>Year:</strong> {book["publication_year", "N/A"]}</p>
-                        <p><strong>Genre:</strong> {book["genre"]}</p>
-                        <span class="{ 'read-badge' if book['read_status'] == 'Read' else 'unread-badge' }">
-                            {book['read_status']}
+                        <p><strong>Author:</strong> {book.get("author")}</p>
+                        <p><strong>Year:</strong> {book.get("publication_year", "N/A")}</p>
+                        <p><strong>Genre:</strong> {book.get("genre")}</p>
+                        <span class="{ 'read-badge' if boo.get('read_status') == 'Read' else 'unread-badge' }">
+                            {book.get('read_status')}
                         </span>
                     </div>
                     """, unsafe_allow_html=True)
