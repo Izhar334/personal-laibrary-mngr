@@ -198,7 +198,7 @@ if view == "Library":
                 with col2:
                     if st.button("❌ Remove", key=f"remove_{i}"):
                         remove_book(i)
-                        st.experimental_rerun()
+                        st.rerun()
                     toggle = st.selectbox(
                         "Change status", ["Unread", "Read"],
                         index=1 if book["read_status"] == "Read" else 0,
