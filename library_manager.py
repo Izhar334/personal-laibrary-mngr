@@ -208,7 +208,7 @@ if view == "Library":
                         book["read_status"] = toggle
                         save_library()
                         st.session_state.book_updated = True
-                        st.experimental_rerun()
+                        st.rerun()
 # ---------------------------
 # SEARCH BOOKS
 # ---------------------------
